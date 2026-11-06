@@ -39,7 +39,14 @@ Invoking the skill requests an audit and recommendations. It does not by itself 
 
 “Global” means available across projects for your current user in that environment. It does not mean installed for every OS user, cloud session, remote development machine, container or WSL distribution.
 
-Obtain this repository or unpack the source package, then open a terminal in the folder containing this README and `skills/`. The commands below use that local copy; no public repository URL is assumed.
+Clone this repository, then open a terminal in the folder containing this README and `skills/`:
+
+```sh
+git clone https://github.com/thedezignking/premortem-product-audit.git
+cd premortem-product-audit
+```
+
+The commands below use that local copy. You can also download the repository as a ZIP from GitHub, or unpack [`dist/premortem-product-audit-source.zip`](dist/premortem-product-audit-source.zip), and run the commands from the unpacked folder.
 
 The optional [Vercel Skills CLI](https://github.com/vercel-labs/skills) supports multiple agents and currently requires Node.js 22.20 or later. It is a separate third-party installer. Manual installation below does not need Node.js, Python or a package manager.
 
