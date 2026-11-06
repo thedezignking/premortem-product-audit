@@ -56,7 +56,13 @@ First preview the available skill:
 npx skills add . --list
 ```
 
-Then install globally for the three named agents:
+Then install globally:
+
+```sh
+npx skills add . --global --skill premortem-product-audit
+```
+
+Or install globally for the three named agents:
 
 ```sh
 npx skills add . --global --skill premortem-product-audit --agent codex claude-code opencode
